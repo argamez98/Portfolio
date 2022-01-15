@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+	background-image: linear-gradient(-45deg, #756868 10%, #96B7C4 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  display: flex;
+}
+
+.navbar a {
+  font-size: 18px;
+  text-decoration: none;
+  width: 7em;
+  font-family: "Open Sans", sans-serif;
 }
 
 @keyframes App-logo-spin {
