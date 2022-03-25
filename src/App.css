@@ -1,19 +1,6 @@
-
-.App {
-  text-align: center;
+*, *:before, *:after {
+  box-sizing: content-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
 	background-image: linear-gradient(-45deg, #756868 10%, #96B7C4 100%);
   min-height: 100vh;
@@ -24,7 +11,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.HeroBanner {
+  font-size: 20px;
+}
 .navbar{
   display: flex;
   position: sticky;
@@ -36,13 +25,4 @@
   text-decoration: none;
   width: 7em;
   font-family: "Open Sans", sans-serif;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
