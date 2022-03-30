@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
     return (
-        <section>
-            
-        </section>
+        <div className="about-Me-Row">
+
+        </div>
     );
 }
