@@ -30,7 +30,9 @@ html {
   font-size: 20px;
 }
 .navbar{
+  padding-bottom: 100px;
   display: flex;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
