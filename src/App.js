@@ -8,11 +8,9 @@ import IconBar from './components/IconBar';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Navbar />
         <Nameheader />
         <HeroBanner />
-      </header>
         <About />
     </div>
   );

@@ -15,32 +15,48 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-.App-header {
-	background-image: linear-gradient(-45deg, #756868 10%, #96B7C4 100%);
-  min-height: 100vh;
-  height: 100vw;
-  display: flex;
-  flex-direction: column;
+.App {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: linear-gradient(-45deg, #756868 10%, #96B7C4 100%);
   color: white;
-}
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  height: 100vw;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  }
+
 .HeroBanner {
   font-size: 20px;
 }
 .navbar{
   padding-bottom: 100px;
-  display: flex;
-  position: -webkit-sticky;
+  padding: 20px 10px;
   position: sticky;
   top: 0;
 }
 
 
 .navbar a {
+  float: left;
   font-size: 18px;
-  text-decoration: none;
-  width: 7em;
   font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  padding: 12px;
+  text-decoration: none;
+  text-align: center;
+  width: 7em;
+}
+
+.navbar a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: rgb(98, 97, 97);
 }
