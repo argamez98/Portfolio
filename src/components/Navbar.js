@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <header>
             <div className="navbar">
                 <a className="logo"> My Logo </a>
                 <div class="navbar-right">
@@ -12,6 +11,5 @@ export default function Navbar() {
                     <a>Contact</a>
                 </div>
             </div>
-        </header>
     );
 }
