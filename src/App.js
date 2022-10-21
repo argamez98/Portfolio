@@ -1,17 +1,29 @@
 import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Redirect,
+} from "react-router-dom";
+
 import Navbar from "./components/Navbar";
-import Nameheader from "./components/Nameheader";
+import Home from "./components/Home";
 import About from "./components/About";
-import HeroBanner from './components/HeroBanner';
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
         <Navbar />
-        <Nameheader />
-        <HeroBanner />
-        <About />
-    </div>
+        <Routes>
+          <Route path="/aboutme" element={<About />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
