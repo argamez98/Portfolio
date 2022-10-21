@@ -17,7 +17,7 @@ html {
 
 .App {
   align-items: center;
-  background-image: linear-gradient(-45deg, #756868 10%, #96B7C4 100%);
+  background-image: linear-gradient(-45deg, #756868 30%, #96B7C4 100%);
   color: white;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -32,6 +32,10 @@ html {
   margin-right: auto;
   width: 40em;
   font-size: 20px;
+}
+
+.herobanner p {
+  margin-top: 8px;
 }
 
 .herobanner p.a {
@@ -59,7 +63,12 @@ html {
   width: 7em;
 }
 a {
+  padding-left: 5px;
   position: relative;
+  display: inline-block;
+}
+a:hover {
+  background-color: #756868;
 }
 a:after {
   background: none repeat scroll 0 0 transparent;
@@ -98,7 +107,7 @@ a:hover:after {
 .name {
   font-size: 40px;
   margin: auto;
-  padding: 30px;
+  padding: 40px;
   text-align: center;
 }
 
