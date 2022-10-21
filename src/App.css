@@ -21,14 +21,25 @@ html {
   color: white;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  height: 100vw;
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
 }
 
-.HeroBanner {
+.herobanner {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
   font-size: 20px;
+}
+
+.herobanner p.a {
+  text-decoration: none;
+}
+
+.herobanner a.active {
+  background-color: #756868;
 }
 
 .navbar{
@@ -47,10 +58,33 @@ html {
   text-align: center;
   width: 7em;
 }
+a {
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
 
 .navbar a.logo {
   font-size: 25px;
   font-weight: bold;
+}
+
+.navbar a.active {
+  background-color: #756868;
 }
 
 .navbar-right {
