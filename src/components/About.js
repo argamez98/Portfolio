@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="">
+        <React.Fragment>
             <h1>About Me Page</h1>
-        </div>
+        </React.Fragment>
     );
 }
