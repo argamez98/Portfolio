@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function HeroBanner() {
+export default function Title() {
     return (
-        <div className="herobanner">
+        <div className="title">
             <p>
                 I'm a 2020 computer science graduate from 
                 <a href="https://www.utrgv.edu/" target="_blank">UTRGV</a>

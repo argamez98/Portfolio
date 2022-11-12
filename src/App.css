@@ -26,7 +26,7 @@ html {
   overflow: hidden;
 }
 
-.herobanner {
+.title {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -34,15 +34,15 @@ html {
   font-size: 20px;
 }
 
-.herobanner p {
+.title p {
   margin-top: 8px;
 }
 
-.herobanner p.a {
+.title p.a {
   text-decoration: none;
 }
 
-.herobanner a.active {
+.title a.active {
   background-color: #756868;
 }
 
