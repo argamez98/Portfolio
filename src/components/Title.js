@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HeroBanner() {
+export default function Title() {
     return (
         <div className=" text-center mr-0 ml-0 text-3xl">
             <p className="mt-8">
