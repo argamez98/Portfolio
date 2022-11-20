@@ -26,14 +26,13 @@ html {
   overflow: hidden;
 }
 
-.herobanner {
+/*.herobanner {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 40em;
   font-size: 20px;
 }
-
 .herobanner p {
   margin-top: 8px;
 }
@@ -53,6 +52,7 @@ html {
   top: 0;
 }
 
+*/
 .navbar a {
   float: left;
   font-size: 18px;
@@ -103,7 +103,7 @@ a:hover:after {
 .navbar a:hover {
   background-color: rgb(98, 97, 97);
 }
-
+/*
 .name {
   font-size: 40px;
   margin: auto;
@@ -114,3 +114,4 @@ a:hover:after {
 .name p {
   font-weight: bold;
 }
+*/
