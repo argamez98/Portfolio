@@ -1,13 +1,10 @@
 import React from "react";
-
-import NameHeader from "./Nameheader";
-import Title from "./Title";
+import BigNameTitle from "./BigNameTitle";
 
 export default function Home() {
     return (
         <>
-            <NameHeader />
-            <Title />
+            <BigNameTitle />
         </>
     );
 }
