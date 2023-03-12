@@ -112,7 +112,9 @@ a:hover:after {
 .navbar a:hover {
   background-color: rgb(98, 97, 97);
 }
-
+.nav-link {
+  float: right;
+}
 /*
 .name {
   font-size: 40px;
