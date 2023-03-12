@@ -13,8 +13,9 @@ const NavLinks = ({ links }) => {
                     <Link
                         to={link.url}
                         className='text-gray-200 hover:text-white transition duration-300 ease-in-out'
-                    />
+                        >
                     {link.text}
+                    </Link>
                 </li>
             )}
         </ul>

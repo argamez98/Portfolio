@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import NavLinks from './Navlink';
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
                 <span className="font-semibold text-xl tracking-tight n">
                     My Portfolio
                 </span>
-            </div>
+            </div> 
             <div className="block lg:hidden">
                 <button
                     className="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
@@ -38,7 +38,7 @@ function Navbar() {
             </div>
             <div
                 className={`${isOpen ? '' : 'hidden'
-                    } w-full block lg:flex lg:items-center lg:w-auto`}
+                    } w-full block lg:flex lg:items-center lg:w-auto pr-32`}
             >
                 <NavLinks links={links} />
             </div>
