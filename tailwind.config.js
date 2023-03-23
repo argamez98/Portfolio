@@ -4,7 +4,8 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      lg: '4.5rem'
+      lg: '4.5rem',
+      xxl: '10rem',
     },
   },
   plugins: [],

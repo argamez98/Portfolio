@@ -5,7 +5,7 @@ export default function Title() {
         <div className=" text-center mr-0 ml-0 text-3xl">
             <p className="mt-8">
                 I'm a 2020 computer science graduate from 
-                <a href="https://www.utrgv.edu/" target="_blank">UTRGV</a>
+                UTRGV
             </p>
             <p className="mt-4">
                 I am from Mission, Texas located in the Rio Grande Valley

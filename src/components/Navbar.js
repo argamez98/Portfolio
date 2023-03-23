@@ -7,6 +7,7 @@ function Navbar() {
         setIsOpen(!isOpen);
       };
     const links = [
+        { text: 'Home', url:'/'},
         { text: 'Projects', url: '/projects' },
         { text: 'Bio', url: '/bio' },
         { text: 'Resume', url: 'https://drive.google.com/file/d/1k44zfKJuUgoXDOtDerreqj8j51wiP0MQ/view?usp=share_link' },

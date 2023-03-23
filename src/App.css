@@ -75,9 +75,6 @@ a {
   display: inline-block;
 }
 
-a:hover {
-  background-color: #756868;
-}
 
 a:after {
   background: none repeat scroll 0 0 transparent;
