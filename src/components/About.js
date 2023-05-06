@@ -3,13 +3,15 @@ import React from "react";
 export default function About() {
     return (
         <>
-            <div class="text-5xl text-center">
-                <p className="mx-72 font-bold">Ariel Gamez</p>
+            <div class="justify-center">
+                <div class="text-5xl text-center">
+                    <p className="mx-72 font-bold">Ariel Gamez</p>
+                </div>
             </div>
             <div className=" text-center mr-0 ml-0 text-3xl">
                 <p className="mt-8">
                     I'm a 2020 computer science graduate from 
-                                    UTRGV
+                                                        UTRGV
                 </p>
                 <p className="mt-4">
                     I am from Mission, Texas located in the Rio Grande Valley
