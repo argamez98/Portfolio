@@ -22,49 +22,61 @@ code {
     background: black;
   }
 }
+
 .hide {
   @apply animate-[slide-out_2s] pr-10;
 }
+
 .name {
   @apply flex flex-col text-[40px] pl-0 pr-5 pt-2.5 pb-5;
   justify-content: right;
   align-items: end;
   font: 10 30px "Rubik", monospace;
 }
+
 .title {
   @apply animate-[slide-in_2s];
 }
+
 .separator {
   @apply h-0 w-[1%];
   background: white;
   transition: width 1s ease-in-out 100ms, height 1s ease-in-out 100ms;
 }
+
 .name:hover .separator {
   @apply h-[3px] w-3/5;
 }
+
 .image {
   @apply h-[90%] w-full animate-[slide-down_3s];
 }
+
 @keyframes slide-down {
   from {
     @apply -translate-y-full;
   }
+
   to {
     @apply translate-y-0;
   }
 }
+
 @keyframes slide-in {
   from {
     @apply translate-x-[-300%];
   }
+
   to {
     @apply translate-x-0;
   }
 }
+
 @keyframes slide-out {
   from {
     @apply translate-x-0;
   }
+
   to {
     @apply translate-x-[-100];
   }
