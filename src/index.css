@@ -18,13 +18,13 @@ code {
 
 @layer components {
   .square {
-    @apply fixed left-[-5%] w-[30em] text-[white] shadow-[10px_10px_30px_lightblue] animate-[slide-in_1.5s] rounded-[5px] border-[3px] top-[10%];
+    @apply fixed left-[-8%] w-[30em] text-[white] shadow-[10px_10px_30px_black] animate-[slide-in_2s] rounded-[5px] border-[3px] top-[10%];
     background: black;
   }
 }
 
 .hide {
-  @apply animate-[slide-out_2s] pr-10;
+  @apply animate-[slide-out_2s] pr-12;
 }
 
 .name {
@@ -45,7 +45,7 @@ code {
 }
 
 .name:hover .separator {
-  @apply h-[3px] w-3/5;
+  @apply h-[3px] w-2/5;
 }
 
 .image {

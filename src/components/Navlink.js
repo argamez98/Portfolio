@@ -14,7 +14,7 @@ const NavLinks = ({links}) => {
                 <Link to={
                         link.url
                     }
-                    className='space-y-2 text-blue-500 hover:text-white hover:bg-slate-400 transition duration-300 ease-in-out'>
+                    className='space-y-2 text-white hover:text-black hover:bg-slate-400 transition duration-300 ease-in-out'>
                     {
                     link.text
                 } </Link>

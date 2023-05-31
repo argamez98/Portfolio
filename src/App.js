@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 
 function App() {
     return (
-        <div className="App bg-gradient-to-r from-white from-30% via-blue-200 via-70% to-slate-500 to-90%">
+        <div className="App bg-gradient-to-r from-slate-900 from-30% via-slate-700 via-70% to-slate-600">
             <Router>
                 <Navbar/>
                 <Routes>
