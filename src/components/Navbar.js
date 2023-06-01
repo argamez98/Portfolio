@@ -8,21 +8,27 @@ function Navbar() {
     };
     const links = [
         {
+            logo:'Home',
             text: 'Home',
             url: '/'
         },
         {
+            logo: 'Construction',
             text: 'Projects',
             url: '/projects'
         },
         {
+            logo: 'Article',
             text: 'Bio',
             url: '/bio'
         },
         {
+            logo: 'Description',
             text: 'Resume',
             url: 'https://drive.google.com/file/d/1k44zfKJuUgoXDOtDerreqj8j51wiP0MQ/view'
-        }, {
+        }, 
+        {
+            logo: 'Mail',
             text: 'Contact',
             url: '/contact'
         }

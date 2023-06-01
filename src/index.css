@@ -15,10 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* Custom Tailwind Classes  */
 @layer components {
   .square {
-    @apply fixed left-[-8%] w-[30em] text-[white] shadow-[10px_10px_30px_black] animate-[slide-in_2s] rounded-[5px] border-[3px] top-[10%];
+    @apply fixed right-[-8%] w-[30em] text-[white] shadow-[10px_10px_30px_black] animate-[slide-in_2s] rounded-[5px] border-[3px] top-[10%];
     background: black;
   }
 }
@@ -27,24 +27,27 @@ code {
   @apply animate-[slide-out_2s] pr-12;
 }
 
-.name {
-  @apply flex flex-col text-[40px] pl-0 pr-5 pt-2.5 pb-5;
-  justify-content: right;
-  align-items: end;
-  font: 10 30px "Rubik", monospace;
+.container {
+  @apply flex flex-col text-[40px] pl-5 pt-2.5 pb-5;
+  justify-content: left;
+  align-items: start;
 }
 
 .title {
   @apply animate-[slide-in_2s];
+  font: 10 30px "Rubik", monospace;
 }
-
+.content-body {
+  @apply animate-[slide-in_2.3s] ;
+  font: 10 25px 'Courier New';
+}
 .separator {
   @apply h-0 w-[1%];
   background: white;
   transition: width 1s ease-in-out 100ms, height 1s ease-in-out 100ms;
 }
 
-.name:hover .separator {
+.container:hover .separator {
   @apply h-[3px] w-2/5;
 }
 
@@ -64,7 +67,7 @@ code {
 
 @keyframes slide-in {
   from {
-    @apply translate-x-[-300%];
+    @apply translate-x-[300%];
   }
 
   to {
