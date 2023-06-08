@@ -4,83 +4,87 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 /* Custom Tailwind Classes  */
 @layer components {
   .square {
-    @apply fixed right-[-8%] w-[30em] text-[white] shadow-[10px_10px_30px_black] animate-[slide-in_2s] rounded-[5px] border-[3px] top-[10%];
+    @apply flex pr-20 pl-20 text-[white] shadow-[10px_10px_30px_black] animate-[slide-in_2s] rounded-[5px] border-[3px] top-[10%];
     background: black;
   }
-}
 
-.hide {
-  @apply animate-[slide-out_2s] pr-12;
-}
-
-.container {
-  @apply flex flex-col text-[40px] pl-5 pt-2.5 pb-5;
-  justify-content: left;
-  align-items: start;
-}
-
-.title {
-  @apply animate-[slide-in_2s];
-  font: 10 30px "Rubik", monospace;
-}
-.content-body {
-  @apply animate-[slide-in_2.3s] ;
-  font: 10 25px 'Courier New';
-}
-.separator {
-  @apply h-0 w-[1%];
-  background: white;
-  transition: width 1s ease-in-out 100ms, height 1s ease-in-out 100ms;
-}
-
-.container:hover .separator {
-  @apply h-[3px] w-2/5;
-}
-
-.image {
-  @apply h-[90%] w-full animate-[slide-down_3s];
-}
-
-@keyframes slide-down {
-  from {
-    @apply -translate-y-full;
+  .wrapper {
+    @apply fixed top-[20%] left-[35%] justify-center align-middle;
   }
 
-  to {
-    @apply translate-y-0;
-  }
-}
-
-@keyframes slide-in {
-  from {
-    @apply translate-x-[300%];
+  .hide {
+    @apply animate-[slide-out_2s] pr-12;
   }
 
-  to {
-    @apply translate-x-0;
-  }
-}
-
-@keyframes slide-out {
-  from {
-    @apply translate-x-0;
+  .container {
+    @apply flex flex-col text-[40px] pl-5 pt-2.5 pb-5;
+    justify-content: left;
+    align-items: start;
   }
 
-  to {
-    @apply translate-x-[-100];
+  .title {
+    @apply animate-[slide-in_2s];
+    font: 10 100px "Rubik", monospace;
+  }
+  .content-body {
+    @apply animate-[slide-in_2.3s];
+    font: 10 40px "Courier New";
+  }
+  .separator {
+    @apply h-0 w-[1%];
+    background: white;
+    transition: width 1s ease-in-out 100ms, height 1s ease-in-out 100ms;
+  }
+
+  .container:hover .separator {
+    @apply h-[3px] w-2/5;
+  }
+
+  .image {
+    @apply h-[90%] w-full animate-[slide-down_3s];
+  }
+
+  @keyframes slide-down {
+    from {
+      @apply -translate-y-full;
+    }
+
+    to {
+      @apply translate-y-0;
+    }
+  }
+
+  @keyframes slide-in {
+    from {
+      @apply translate-x-[300%];
+    }
+
+    to {
+      @apply translate-x-0;
+    }
+  }
+
+  @keyframes slide-out {
+    from {
+      @apply translate-x-0;
+    }
+
+    to {
+      @apply translate-x-[-100];
+    }
   }
 }
