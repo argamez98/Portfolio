@@ -5,22 +5,21 @@ const Section = ({ content = '' }) => {
     return (
         <div class='wrapper'>
 
-        <div id='name-title' class='square' value='click'>
+        <ul id='name-title' class='square' value='click'>
             {
                 content.map((content, index) => <section key={index}>
-                <div class='container'>
+                <li class='container ml-8'>
                     <span class='title'>
                         {
                             content.title
                         } </span>
-                    <div class='separator'></div>
                     <span class='content-body'>
                         {
                             content.body
                         } </span>
-                  </div>
+                  </li>
             </section>)
-        } </div>
+        } </ul>
         </div>
     )
 

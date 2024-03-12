@@ -6,10 +6,12 @@ export default function Home() {
         {
             title: 'Ariel Gamez',
             body:'Software Developer'
-        },
+        }
 
     ]
     return (
-       <Section content ={sections} />
+        <div>
+            <Section content= {sections} />
+        </div>
        );
 }

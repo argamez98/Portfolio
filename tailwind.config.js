@@ -7,6 +7,7 @@ module.exports = {
       lg: '4.5rem',
       xxl: '10rem',
     },
+
   },
   plugins: [
     require('flowbite/plugin')
